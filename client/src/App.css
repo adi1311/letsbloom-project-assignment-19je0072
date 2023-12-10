@@ -1,0 +1,42 @@
+.container {
+  height: 100vh;
+  overflow:  scroll;
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  height: 100%;
+  display: grid;
+}
+
+.spin-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action {
+  flex: 1;
+  height: 100%;
+  border-left: 0.5px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-img {
+  /* height: 50%; */
+  width: 90%;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
