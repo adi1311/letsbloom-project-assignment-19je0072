@@ -31,9 +31,7 @@ Description
 Allows updating the details of a specific book in the library.
 
 # How to Use
-1. Clone this repository to your local machine.
-  git clone https://github.com/your-username/library-management-api.git
-
+1. Clone this repository to your local machine
 2. Install dependencies.
 3. npm install
 4. Set up your database configuration in a .env file.
